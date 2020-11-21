@@ -2,7 +2,7 @@ package jaegerui
 
 import (
 	"github.com/labstack/echo"
-	"github.com/rai-project/web/jaegerui/static"
+	"github.com/c3sr/web/jaegerui/static"
 )
 
 func Handle() echo.HandlerFunc {

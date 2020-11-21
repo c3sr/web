@@ -9,7 +9,7 @@ jaeger_ui_resources.go: jaeger-ui-build
 	go generate
 
 checkout-ui:
-	git clone --depth 1 --branch feature/mlmodelscope https://github.com/rai-project/jaeger-ui
+	git clone --depth 1 --branch feature/mlmodelscope https://github.com/c3sr/jaeger-ui
 
 jaeger-ui-build:
 	cd jaeger-ui && yarn install && yarn build
