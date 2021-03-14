@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	assetfs "github.com/elazarl/go-bindata-assetfs"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 func AssetFS() *assetfs.AssetFS {
